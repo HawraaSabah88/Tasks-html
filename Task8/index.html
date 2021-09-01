@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task8</title>
+    <style>
+        .input {
+text-align: center;
+font-size: 20px;
+        }
+        .h1 {
+            background-color: darkgray;
+        };
+
+        .h5 {
+            font-size: 20px;
+        };
+    </style>
+</head>
+<body style="background-color: darkgray;">
+    
+    <h1 style="text-align: center;">Type Your Information</h1>
+    <form action="a.html" method="POST">
+        <h5 style="font-size: 20px;">Type Your Full-name</h5>
+<div class="input">
+<label for="">
+    User Name </label><br> <input type="text" id="username" name="username" required minlength="5">
+</div>
+<hr>
+<h5 style="font-size: 20px;">Type Your Password</h5>
+<div class="input">
+    <label for="">password</label>
+    <br>
+    <input type="password" minlength="5">
+    </div>
+    <hr>
+    <h5 style="font-size: 20px;">Type Your Number of Mobile</h5>
+    <div class="input">
+        <label for="">Mobile</label>
+        <br>
+        <input type="tel" name="nmber mobile" minlength="5" >
+        </div>
+
+
+<hr>
+<h5 style="font-size: 20px;">Type Your Email</h5>
+<div class="input">
+    <label for="">Email</label>
+    <br>
+    <input type="email" id="email" name="email" required minlength="5">
+    </div>
+    <hr>
+<h5 style="font-size: 20px;">Type Your Subject</h5>
+    <div class="input">
+        <label for="">Subject</label>
+        <br>
+        <input type="text" name="subject" minlength="5">
+        </div>
+        <hr>
+        <label for="country">Country:</label>  
+        <input type="text" id="country" name="country" value="Iraq" readonly><br><br>
+        <hr>
+        <h2>Are you conect on social media</h2>
+
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="face">
+          <label for="vehicle1"> I have a acount on facebook</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="link">
+          <label for="vehicle2"> I have a acount on Linked ln</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="tele">
+          <label for="vehicle3"> I have a acount on telegrame</label><br><br>
+<br><br>
+<p style="font-size: 20px;">Please select your age:</p>
+<input type="radio" id="age1" name="age" value="30">
+<label for="age1">0 - 30</label><br>
+<input type="radio" id="age2" name="age" value="60">
+<label for="age2">31 - 60</label><br>  
+<input type="radio" id="age3" name="age" value="100">
+<label for="age3">61 - 100</label><br><br>
+<h2  style="font-size: 20px;">
+    What is the difference between CheckBox and Radio Button?</h2>
+<p  style="font-size: 20px;">
+  
+
+
+CheckBox: Used to display options for the user to check if any or all of them are selected.
+
+RadioButton: Used to display several options from which the user chooses, and it is preferable to group these options within the assembly frame.
+What is the difference between checkbox and radiobutton
+</p>
+
+        <h5 style="font-size: 20px;">Click send if You finish</h5>
+    <div class="input">
+        <label for="">send</label>
+        <br>
+
+        <input type="submit">
+        </div>
+    </form>
+
+    <p style="font-size: 20px;">If you click "Send", the form-data will be not change your Information.</p>
+
+</body>
+</html>
